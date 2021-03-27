@@ -1,0 +1,31 @@
+
+/*Main*/
+main h3 {
+    display: flex;
+    justify-content: center;
+    background-color: gray;
+}
+
+#plant-group-container {
+    display: flex;
+    border: 1px solid black;
+}
+
+.plant-group {
+    background-color: whitesmoke;
+    margin: 0.5rem 0.5rem;
+    padding: 0.5rem 1rem;
+}
+
+.plant-group picture h4 {
+    background-color: gray;
+    margin: -0.5rem -1rem 0rem -1rem;
+    padding: 4rem 4.5rem;
+}
+
+.plant-group h5 {
+    display: flex;
+    justify-content: center;
+    margin: 0.5rem;
+    margin-bottom: -0.1rem;
+}

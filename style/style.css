@@ -1,0 +1,113 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+/*Header*/
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navigation-bar {
+    align-self: center;
+}
+
+.navigation-bar ul li {
+    display: inline-block;
+    padding: 0rem 0.5rem;
+}
+
+/*Main*/
+#images-gallery {
+    display: flex;
+    justify-content: center;
+    background-color: darkgray;
+    padding: 4rem 10rem;
+    margin-bottom: 0.5rem;
+}
+
+#slogan {
+    display: flex;
+    justify-content: center;
+    border: 1px solid black;
+    padding: 1rem 10rem;
+    margin-bottom: 0.5rem;
+}
+
+#services-description {
+    margin-bottom: 0.5rem;
+}
+
+#services-description h2{
+    display: flex;
+    justify-content: center;
+    background-color: darkgray;
+    padding: 0.2rem 10rem;
+    margin: 0px;
+}
+
+#quick-look-services {
+    display: flex;
+    justify-content: space-between;
+    margin: 0rem -0.5rem;
+}
+
+.service h4 {
+    padding: 4rem 4.9rem;
+    margin: 0.5rem 0.5rem;
+    background-color: darkgray;
+}
+
+#quick-description {
+    display: flex;
+    justify-content: center;
+    padding: 1rem 10rem;
+    border: 1px solid black;
+}
+
+/*Footer*/
+#info-footer {
+    display: flex;
+    justify-content: space-between;
+    margin: 0.5rem 0rem;
+    background-color: darkgray;
+}
+
+.navigation-box li {
+    list-style: none;
+}
+
+.navigation-box ul {
+    padding-inline-start: 0;
+}
+
+#contact-section-footer {
+    margin: 0.5rem 0.5rem;
+    padding: 0.5rem 2rem;
+}
+
+#info-section-footer {
+    margin: 0.5rem 0.5rem;
+    padding: 0.5rem 2rem;
+}
+
+#services-section-footer {
+    margin: 0.5rem 0.5rem;
+    padding: 0.5rem 2rem;
+}
+
+#sponsor-section-footer {
+    margin: 0.5rem 0.5rem;
+    padding: 0.5rem 2rem;
+}
+
+#credits {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem 0.5rem;
+    background-color: darkgray;
+}

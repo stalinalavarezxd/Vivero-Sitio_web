@@ -1,0 +1,30 @@
+
+/*Main*/
+main h3 {
+    display: flex;
+    justify-content: center;
+    background-color: gray;
+}
+
+main h4 {
+    display: flex;
+    justify-content: center;
+    margin: 1rem 0;
+    padding: 10rem 10rem;
+    background-color: gray;
+}
+
+#contact-information {
+    border: 1px solid black;
+}
+
+#contact-information ul {
+    padding: 0.5rem 0 0.5rem 20%;
+}
+
+#form-contact {
+    /*display: flex;*/
+    border: 1px solid black;
+}
+
+

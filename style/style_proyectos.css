@@ -1,0 +1,24 @@
+
+
+/*Main*/
+#main-projects h3 {
+    display: flex;
+    justify-content: center;
+    background-color: darkgrey;
+    padding: 0.5rem 10rem;
+}
+
+#projects-description {
+    border: 1px solid black;
+    padding: 0.5rem 1rem;
+}
+
+#projects-description h6 {
+    font-size: 0.8rem;
+}
+
+.project-description {
+    background-color: darkgrey;
+    padding: 0.5rem 1rem;
+    margin: 0.5rem 0rem;
+}

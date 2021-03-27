@@ -1,0 +1,72 @@
+body {
+
+}
+
+/*Main*/
+
+#services-container h2{
+    display: flex;
+    justify-content: center;
+    background-color: darkgrey;
+    padding: 0.5rem 10rem;
+}
+
+#main-services {
+    display: flex;
+    justify-content: space-between;
+    margin: 0.5rem 0.5rem;
+}
+
+.service {
+    background-color: darkgray;
+    padding: 1rem 2rem;
+    display: grid;
+}
+
+.service h3 {
+    display: flex;
+    justify-content: center;
+    background-color: darkgrey;
+}
+
+.service p {
+    display: flex;
+    justify-content: center;
+}
+
+.service input {
+    display: flex;
+    justify-content: center;
+}
+
+#services-description {
+    margin: 0rem 0.5rem;
+    border: 1px solid black;
+}
+
+#services-description h3 {
+    display: flex;
+    justify-content: center;
+}
+
+#services-imgs {
+    display: flex;
+    justify-content: space-between;
+    margin: 0.5rem 1rem;
+}
+
+.img-all-services {
+    background-color: darkgrey;
+    padding: 4rem 4.5rem;
+}
+
+#services-imgs h4 {
+    font-size: 1.5rem;
+    margin-bottom: 4rem;
+}
+
+#services-imgs h6 {
+    font-size: 1rem;
+    margin: 0.5rem 0rem -3rem 0rem;
+}
+
