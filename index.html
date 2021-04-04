@@ -3,6 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Titulo Sitio</title>
     <link rel="stylesheet" href="./style/style.css">
@@ -23,11 +27,52 @@
         </nav>
     </header>
     <main>
+      
         <div id="images-gallery">
-            <h6>Galeria Imagenes</h6>
+            <div class="container">
+                <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                  <!-- Indicators -->
+                  <ol class="carousel-indicators">
+                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#myCarousel" data-slide-to="1"></li>
+                    <li data-target="#myCarousel" data-slide-to="2"></li>
+                  </ol>
+              
+                  <!-- Wrapper for slides -->
+                  <div class="carousel-inner">
+              
+                    <div class="item active">
+                      <img src="V1.jpeg"  style="width: 1150px;height: 500px">
+                      
+                    </div>
+              
+                    <div class="item">
+                      <img src="V2.jpeg" style="width: 1150px;height: 500px">
+                      
+                    </div>
+                  
+                    <div class="item">
+                      <img src="V3.jpeg"  style="width: 1150px;height: 500px">
+                      
+                    </div>
+                
+                  </div>
+              
+                  <!-- Left and right controls -->
+                  <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left"></span>
+                    <span class="sr-only">Previous</span>
+                  </a>
+                  <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right"></span>
+                    <span class="sr-only">Next</span>
+                  </a>
+                </div>
+              </div>
+              
         </div>
         <div id="slogan">
-            <h4>la belleza de una planta proviene de sus raíces</h4>
+            <h4>Frase/Eslogan</h4>
         </div>
         <div id="services-description">
             <h2>Servicios</h2>
@@ -44,14 +89,7 @@
             </div>
         </div>
         <div id="quick-description">
-            <img src="./images/59b2dfc9-026e-4898-99e2-046761c7de7a.jpg" alt="" width="500" height="200">
-            <center><h5>Presentamos a continuación información que el vivero catiglata ofrece a su disposición, contamos con una gran variedad de plantas de diferentes especies y separadas en grupo, además proporcionamos imágenes de las plantas.
-                Entre los diferentes grupos de plantas podemos encontrar plantas forestales, plantas ornamentales, plantas medicinales y plantas de jardín.
-                
-                También colocamos una galería de fotos para que se pueda ver la descripción de cada planta.
-                Esperamos disfrute observando y conociendo sobre todo lo que ofrece este hermoso vivero y sus bellas e increíbles plantas.</h5></center>
-            
-            <img src="./images/cb94859d-7ee5-4654-9fe1-4bc8fee20853.jpg" alt="" width="280" height="200">
+            <h5>Descripción rapida</h5>
         </div>
     </main>
     <footer>
@@ -66,25 +104,30 @@
                     </ul>
                 </nav>
             </div>
+            
             <div id="services-section-footer">
                 <h5>Servicios</h5>
                 <nav class="navigation-box">
                     <ul>
                         <li><a href="">Diseño de Jardines</a></li>
                         <li><a href="">Venta de Plantas</a></li>
-                        <li><a href="">Donación de plantas</a></li>
+                        <li><a href="">Doncacion de plantas</a></li>
                     </ul>
                 </nav>
             </div>
             <div id="sponsor-section-footer">
                 <picture>
-                    <img src="./images/logoGAD.png" alt="Gad Tungurahua">
+                    <h5>Patrocinador</h5>
                 </picture>
+                <picture>
+                    <h5>Gad Provincial de Tungurahua</h5>
+                </picture>
+
             </div>
         </div>
         <div id="credits">
-            <strong>Copyright - Empresa A</strong>
-            <em>Diseño web por LABMAK</em>
+            <strong>Copyright </strong>
+            <em>Diseño web por Labmak</em>
         </div>
     </footer>
 </body>
